@@ -3,7 +3,7 @@ from flask import Flask, request, Response, jsonify
 from datetime import datetime
 import pytz
 
-EXTERNAL_API = "https://crunchyroll-q9ix.onrender.com/check"
+EXTERNAL_API = "https://crunchyroll-sbvj.onrender.com/check"
 LODA = "bm9haWhkZXZtXzZpeWcwYThsMHE6"
 
 app = Flask(__name__)
